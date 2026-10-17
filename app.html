@@ -1,0 +1,14 @@
+<div class="app-window" id="MetronomeApp">
+  <div class="app-header"><span class="app-title">🎵 Metronome</span><div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div></div>
+  <div class="app-content">
+    <div class="mt">
+      <div id="mt-bpm" class="mt-bpm">120</div>
+      <div class="mt-bpml">BPM</div>
+      <input id="mt-range" type="range" min="40" max="240" value="120">
+      <div class="mt-row"><label>Beats <select id="mt-beats"><option>2</option><option>3</option><option selected>4</option><option>6</option></select></label><button id="mt-tap" class="g">Tap</button></div>
+      <div id="mt-dots" class="mt-dots"></div>
+      <button id="mt-toggle">Start</button>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>
